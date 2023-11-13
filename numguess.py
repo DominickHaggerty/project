@@ -1,24 +1,46 @@
 import random
 
-while True:
-
-    number = random.randint(1, 100)
-    print(number)
-
-    player = int(input("guess a number:    "))
 
 
-    if(player == number):
-        print("That is the number")
+number = random.randint(1, 100)
 
-    elif(player > number):
-        print("lower")
+
+player = int(input("guess a number:    "))
+
+
+if(player == number):
+    print("That is the number")
+
+elif(player > number):
+    print("lower")
     
-    else:
-        print("higher")
+else:
+    print("higher")
+
+player = int(input("guess another number:   "))
+
+if(player == number):
+    print("That is the number")
+
+elif(player > number):
+    print("lower")
+    
+else:
+    print("higher")
 
 
+player = int(input("guess another number:   "))
 
+if(player == number):
+    print("That is the number")
+
+elif(player > number):
+    print("You lose")
+    
+else:
+    print("You lose")
+
+print(number)
 
 
 
