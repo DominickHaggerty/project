@@ -1,7 +1,7 @@
-def main():
-    play_game()
+def gameover():
+    playagain()
 
-def play_game():
+def playagain():
     print("Would you like to play again?")
     playAgain = input("Enter Response: ")
     playAgain = playAgain.capitalize()
@@ -13,4 +13,4 @@ def play_game():
         print("Ok :(")
     
 if __name__ == "__main__":
-    main()
+    gameover()
