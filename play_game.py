@@ -1,7 +1,7 @@
 def main():
-    play_game()
+    new_game()
 
-def play_game():
+def new_game():
     print("Would you like to play again?")
     playAgain = input("Enter Response: ")
     playAgain = playAgain.capitalize()
