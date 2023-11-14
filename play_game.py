@@ -1,4 +1,4 @@
-def main():
+def gameover():
     new_game()
 
 def new_game():
@@ -13,4 +13,4 @@ def new_game():
         print("Ok :(")
     
 if __name__ == "__main__":
-    main()
+    gameover()
