@@ -1,7 +1,7 @@
 def gameover():
-    playagain()
+    new_game()
 
-def playagain():
+def new_game():
     print("Would you like to play again?")
     playAgain = input("Enter Response: ")
     playAgain = playAgain.capitalize()
